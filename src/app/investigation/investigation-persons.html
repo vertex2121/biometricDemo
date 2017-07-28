@@ -1,0 +1,10 @@
+<div class="table table-hover">
+  <div class="list-group">
+    <a class="list-group-item" ui-sref="person({ personId: person.id })" ng-repeat="person in $ctrl.investigationPersons">
+      <img class="img-rounded photo" ng-src="{{person.imageUrl}}" alt="{{person.imageUrl}}" />
+      {{person.list}}
+      {{person.status}}
+      {{person.id}}
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,22 @@
+{
+  "name": "biometric-demo-app",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "angular-loader": "~1.5.0",
+    "angular-resource": "~1.5.0",
+    "angular-mocks": "~1.5.0",
+    "angular-ui-router": "~1.0.0",
+    "bootstrap": "^3.3.7"
+  },
+  "description": "BiometricDemoApp",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

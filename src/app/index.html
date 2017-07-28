@@ -1,0 +1,62 @@
+<html ng-app="app">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BiometricDemoApp</title>
+  <base href="/">
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <style type="text/css">
+    .ng-cloa {
+      display: none !important;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="left">
+      <div ui-sref="investigations" class="item">
+        <span class="glyphicon glyphicon-th-large"></span>
+      </div>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      <div class="item" ui-sref="investigations" ui-sref-active="active">
+        <span class="glyphicon glyphicon-th-list"></span>
+      </div>
+      <div class="item" ui-sref="investigations" ui-sref-active="active">
+        <span class="glyphicon glyphicon-log-out"></span>
+      </div>
+      <div class="item" ui-sref="investigations" ui-sref-active="active">
+        <span class="glyphicon glyphicon-log-out"></span>
+      </div>
+      <div class="item" ui-sref="investigations" ui-sref-active="active">
+        <span class="glyphicon glyphicon-log-out"></span>
+      </div>
+      <div class="item" ui-sref="investigations" ui-sref-active="active">
+        <span class="glyphicon glyphicon-log-out"></span>
+      </div>
+    </div>
+
+    <div class="content">
+      <div ui-view></div>
+    </div>
+  <script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js" type="text/javascript"></script>
+  <script src="app.module.js" type="text/javascript"></script>
+  <script src="app.config.js" type="text/javascript"></script>
+  <script src="investigation/investigation.service.js" type="text/javascript"></script>
+  <script src="person/person.service.js" type="text/javascript"></script>
+  <script src="investigation/investigations.component.js" type="text/javascript"></script>
+  <script src="investigation/investigation-persons.component.js" type="text/javascript"></script>
+  <script src="person/person.component.js" type="text/javascript"></script>
+  <script src="app.route.js" type="text/javascript"></script>
+
+</body>
+
+</html>

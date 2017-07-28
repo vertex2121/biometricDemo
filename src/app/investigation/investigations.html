@@ -1,0 +1,20 @@
+<div>
+  <div class="row">
+    <div class="col-md-4">
+      <h1>База профилей</h1>
+    </br>
+    </br>
+    </br>
+      <div class="list-group">
+        <a class="list-group-item" ui-sref="investigations.investigationPersons({ investigationListId: investigationList.id })" ng-repeat="investigationList in $ctrl.investigations">
+        <span style="float: right;">&emsp;{{investigationList.total}}</span>
+        <span ng-hide="investigationList.new==0" class="badge">+ {{investigationList.new}}</span>
+        {{investigationList.name}}
+      </a>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <ui-view></ui-view>
+    </div>
+  </div>
+</div>

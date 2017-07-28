@@ -1,0 +1,39 @@
+.content{
+     padding: 20px;
+     margin-left: 25px;
+     margin-right: 20px;
+    padding-bottom: 30px;
+    overflow: auto;  //code added
+    float: left;
+    height: 100%;
+ }
+
+.left {
+  float: left;
+  height: 100%;
+  background: #337ab7;
+  display: inline-block;
+  white-space: nowrap;
+  width: 50px;
+}
+
+.item:hover {
+  background-color: #ccc;
+}
+
+.left .glyphicon {
+  margin: 15px;
+  width: 20px;
+  color: #fff;
+}
+
+.item {
+  height: 50px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.photo {
+    width: 40px;
+    height: 40px;
+}

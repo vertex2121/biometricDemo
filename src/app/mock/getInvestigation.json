@@ -1,0 +1,49 @@
+[{
+    "id": 1,
+    "lists": [
+
+    ],
+    "status": "Неизвестный",
+    "imageUrl": "mock/faces/1850.jpg"
+  },
+  {
+    "id": 2,
+    "lists": [
+
+    ],
+    "status": "Сомнительный",
+    "imageUrl": "mock/faces/2591.jpg"
+  },
+  {
+    "id": 3,
+    "lists": [
+
+    ],
+    "status": "Негативный",
+    "imageUrl": "mock/faces/6366.jpg"
+  },
+  {
+    "id": 4,
+    "lists": [
+
+    ],
+    "status": "Сомнительный",
+    "imageUrl": "mock/faces/8413.jpg"
+  },
+  {
+    "id": 5,
+    "lists": [
+
+    ],
+    "status": "Под следствием",
+    "imageUrl": "mock/faces/9540.jpg"
+  },
+  {
+    "id": 6,
+    "lists": [
+
+    ],
+    "status": "Положительный",
+    "imageUrl": "mock/faces/11641.jpg"
+  }
+]
