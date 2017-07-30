@@ -1,20 +1,27 @@
-<div>
-  <div class="row">
-    <div class="col-md-4">
-      <h1>База профилей</h1>
-    </br>
-    </br>
-    </br>
-      <div class="list-group">
-        <a class="list-group-item" ui-sref="investigations.investigationPersons({ investigationListId: investigationList.id })" ng-repeat="investigationList in $ctrl.investigations">
-        <span style="float: right;">&emsp;{{investigationList.total}}</span>
-        <span ng-hide="investigationList.new==0" class="badge">+ {{investigationList.new}}</span>
-        {{investigationList.name}}
-      </a>
-      </div>
-    </div>
-    <div class="col-md-8">
-      <ui-view></ui-view>
-    </div>
+<div class="left-menu column">
+  <div class="left-menu-header">
+    <h1>База профилей</h1>
   </div>
+  <div class="left-menu-list">
+    <ul class="left-menu-list-group">
+      <li class="left-menu-list-item" ng-repeat="investigationList in $ctrl.investigations">
+        <a ui-sref="investigations.investigationPersons({ investigationListId: investigationList.id })">
+        <span class="left-menu-list-item-name">{{investigationList.name}}</span>
+        <span class="left-menu-list-item-right">
+          <span class="left-menu-list-item-notification" ng-hide="investigationList.new==0">
+            + {{investigationList.new}}
+          </span>
+          {{investigationList.total}}
+        </span>
+      </a>
+      </li>
+    </ul>
+  </div>
+  <div class="left-menu-footer">
+    <a class="icon" href="">Пополнить базу</a>
+  </div>
+</div>
+
+<div class="right-content column">
+  <ui-view></ui-view>
 </div>

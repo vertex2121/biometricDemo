@@ -1,10 +1,42 @@
-<div class="table table-hover">
-  <div class="list-group">
-    <a class="list-group-item" ui-sref="person({ personId: person.id })" ng-repeat="person in $ctrl.investigationPersons">
-      <img class="img-rounded photo" ng-src="{{person.imageUrl}}" alt="{{person.imageUrl}}" />
-      {{person.list}}
-      {{person.status}}
-      {{person.id}}
+<div class="right-content-header">
+  <div class="right-content-header-checkbox">
+    <a class="icon checkbox"></a>
+  </div>
+  <div class="right-content-header-lists">
+  </div>
+  <div class="right-content-header-status">
+  </div>
+  <div class="right-content-header-id">
+  </div>
+  <div class="right-content-header-menu">
+  </div>
+</div>
+
+<div class="right-content-content">
+  <table class="right-content-table">
+    <tr class="right-content-table-row" ng-repeat="person in $ctrl.investigationPersons">
+      <td class="right-content-table-cell right-content-table-cell-check">
+        <a class="icon checkbox" ui-sref="person({ personId: person.id })"></a>
+      </td>
+      <td class="right-content-table-cell right-content-table-cell-photo">
+        <!-- <a ui-sref="person({ personId: person.id })" "> -->
+          <img class="img-rounded photo" ng-src="{{person.imageUrl}}" width="60px" height="60px"></img>
+      </td>
+      <td class="right-content-table-cell right-content-table-cell-lists">
+        {{person.lists}}
+      </td>
+      <td class="right-content-table-cell right-content-table-cell-status">
+        {{person.status}}
+      </td>
+      <td class="right-content-table-cell right-content-table-cell-id">
+        {{person.id}}
+      </td>
+      <td class="right-content-table-cell right-content-table-cell-menu">
+        <a class="icon person-menu"></a>
+      </td>
     </tr>
-  </tbody>
-</table>
+  </table>
+</div>
+
+<div class="right-content-footer">
+</div>

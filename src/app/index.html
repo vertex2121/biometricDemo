@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BiometricDemoApp</title>
   <base href="/">
-  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
+  <link href="icon.css" rel="stylesheet">
   <style type="text/css">
     .ng-cloa {
       display: none !important;
@@ -16,36 +16,42 @@
 </head>
 
 <body>
-    <div class="left">
-      <div ui-sref="investigations" class="item">
-        <span class="glyphicon glyphicon-th-large"></span>
-      </div>
-      </br>
-      </br>
-      </br>
-      </br>
-      </br>
-      </br>
-      <div class="item" ui-sref="investigations" ui-sref-active="active">
-        <span class="glyphicon glyphicon-th-list"></span>
-      </div>
-      <div class="item" ui-sref="investigations" ui-sref-active="active">
-        <span class="glyphicon glyphicon-log-out"></span>
-      </div>
-      <div class="item" ui-sref="investigations" ui-sref-active="active">
-        <span class="glyphicon glyphicon-log-out"></span>
-      </div>
-      <div class="item" ui-sref="investigations" ui-sref-active="active">
-        <span class="glyphicon glyphicon-log-out"></span>
-      </div>
-      <div class="item" ui-sref="investigations" ui-sref-active="active">
-        <span class="glyphicon glyphicon-log-out"></span>
+  <div class="left-panel">
+    <div class="left-panel-top-items">
+      <div class="left-panel-item">
+        <a ui-sref="investigations" class="icon circle-icon"></a>
       </div>
     </div>
+    <div class="left-panel-middle-items">
+      <div class="left-panel-item">
+        <a ui-sref="investigations" class="find-icon icon"></a>
+      </div>
+      <div class="left-panel-item">
+        <a ui-sref="investigations" class="list-icon icon"></img></a>
+      </div>
+      <div class="left-panel-item">
+        <a ui-sref="investigations" class="docs-icon icon"></img></a>
+      </div>
+      <div class="left-panel-item">
+        <a ui-sref="investigations" class="notification-icon icon"></img></a>
+      </div>
+      <div class="left-panel-item">
+        <a ui-sref="investigations" class="settings-icon icon"></img></a>
+      </div>
+    </div>
+    <div class="left-panel-bottom-items">
+      <div class="left-panel-item">
+        <a ui-sref="investigations" class="help-icon icon"></a>
+      </div>
+      <div class="left-panel-item">
+        <a ui-sref="investigations" class="exit-icon icon"></img></a>
+      </div>
+    </div>
+  </div>
 
-    <div class="content">
-      <div ui-view></div>
-    </div>
+  <div class="content column">
+    <div ui-view></div>
+  </div>
   <script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
   <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js" type="text/javascript"></script>
   <script src="app.module.js" type="text/javascript"></script>

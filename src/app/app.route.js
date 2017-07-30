@@ -10,13 +10,7 @@
       var states = [
         {
           name: 'home',
-          url: '',
-          component: 'investigationsComponent',
-          resolve: {
-            investigations: function(investigationService) {
-              return investigationService.getAllInvestigations();
-            }
-          }
+          url: ''
         },
         {
           name: 'investigations',

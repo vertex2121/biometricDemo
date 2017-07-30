@@ -1,15 +1,12 @@
 [{
     "id": 1,
-    "lists": [
-
-    ],
     "status": "Неизвестный",
     "imageUrl": "mock/faces/1850.jpg"
   },
   {
     "id": 2,
     "lists": [
-
+      "Должники"
     ],
     "status": "Сомнительный",
     "imageUrl": "mock/faces/2591.jpg"
@@ -17,33 +14,93 @@
   {
     "id": 3,
     "lists": [
-
+      "Черный список"
     ],
     "status": "Негативный",
     "imageUrl": "mock/faces/6366.jpg"
   },
   {
     "id": 4,
-    "lists": [
-
-    ],
     "status": "Сомнительный",
     "imageUrl": "mock/faces/8413.jpg"
   },
   {
     "id": 5,
     "lists": [
-
+      "Должники"
     ],
     "status": "Под следствием",
     "imageUrl": "mock/faces/9540.jpg"
   },
   {
     "id": 6,
-    "lists": [
-
-    ],
     "status": "Положительный",
     "imageUrl": "mock/faces/11641.jpg"
+  },
+  {
+    "id": 7,
+    "status": "Положительный",
+    "imageUrl": "mock/faces/16558.jpg"
+  },
+  {
+    "id": 8,
+    "lists": [
+      "Черный список",
+      "Мошинники"
+    ],
+    "status": "Положительный",
+    "imageUrl": "mock/faces/19227.jpg"
+  },
+  {
+    "id": 9,
+    "status": "Положительный",
+    "imageUrl": "mock/faces/22685.jpg"
+  },
+  {
+    "id": 10,
+    "lists": [
+      "Похожие профили"
+    ],
+    "status": "Положительный",
+    "imageUrl": "mock/faces/24452.jpg"
+  },
+  {
+    "id": 11,
+    "lists": [
+      "Похожие профили",
+      "Должники"
+    ],
+    "status": "Положительный",
+    "imageUrl": "mock/faces/26065.jpg"
+  },
+  {
+    "id": 12,
+    "status": "Положительный",
+    "imageUrl": "mock/faces/26321.jpg"
+  },
+  {
+    "id": 13,
+    "status": "Положительный",
+    "imageUrl": "mock/faces/28100.jpg"
+  },
+  {
+    "id": 14,
+    "status": "Положительный",
+    "imageUrl": "mock/faces/32301.jpg"
+  },
+  {
+    "id": 15,
+    "status": "Положительный",
+    "imageUrl": "mock/faces/38582.jpg"
+  },
+  {
+    "id": 16,
+    "status": "Положительный",
+    "imageUrl": "mock/faces/49207.jpg"
+  },
+  {
+    "id": 17,
+    "status": "Положительный",
+    "imageUrl": "mock/faces/54817.jpg"
   }
 ]
